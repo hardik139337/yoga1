@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import H from './com/h';
+import Yoga from './com/Yoga';
+import Group from './com/group1';
+import Group2 from './com/group2';
+import Group3 from './com/group3';
+import Group5 from './com/group5';
+import Group6 from './com/group6';
+import Group7 from './com/group7';
+import Group8 from './com/group8';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <H></H>
+      <Yoga></Yoga>
+      <Group></Group>
+      <Group2></Group2>
+      <Group3></Group3>
+      <Group5></Group5>
+      <Group6></Group6>
+      <Group7></Group7>
+      <Group8></Group8>
     </div>
   );
 }
-
-export default App;
