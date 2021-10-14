@@ -1,11 +1,15 @@
 import { css } from '@emotion/css';
-import React from 'react';
 
 export default function group3() {
   return (
     <div>
       <div className='grid grid-cols-2'>
-        <div>
+        <div
+          className={css`
+            padding-top: 167px;
+            padding-left: 149px;
+          `}
+        >
           <h1
             className={css`
               color: #745a82;
@@ -17,13 +21,13 @@ export default function group3() {
               line-height: 58.33px;
               text-align: left;
               text-transform: uppercase;
-              /* Text style for "practice" */
+              margin-bottom: 98px;
               font-family: 'Open Sans - Bold';
               font-weight: 700;
               font-style: normal;
               letter-spacing: 0.9px;
               line-height: normal;
-              /* Text style for "dynamics" */
+
               font-family: 'Open Sans - Light';
               font-weight: 300;
               font-style: normal;
@@ -31,13 +35,12 @@ export default function group3() {
               line-height: normal;
             `}
           >
-            1. HATHA YOGA
+            practice
+            <br /> dynamics
           </h1>
 
           <h2
             className={css`
-              /* Style for "1. HATHA Y" */
-
               color: #745a82;
               font-family: 'Open Sans';
               font-size: 33px;
@@ -47,13 +50,14 @@ export default function group3() {
               line-height: 58.33px;
               text-align: left;
               text-transform: uppercase;
-              /* Text style for "1, . ,  YO" */
+
+              margin-bottom: 43px;
               font-family: 'Open Sans';
               font-weight: undefined;
               font-style: normal;
               letter-spacing: 2.5px;
               line-height: normal;
-              /* Text style for "HATHA" */
+
               font-family: 'Open Sans - Bold';
               font-weight: 700;
               font-style: normal;
@@ -65,8 +69,7 @@ export default function group3() {
           </h2>
           <p
             className={css`
-              /* Style for "Hatha is t" */
-
+              max-width: 537px;
               color: #745a82;
               font-family: 'Open Sans';
               font-size: 25px;
@@ -75,9 +78,11 @@ export default function group3() {
               letter-spacing: normal;
               line-height: 45.83px;
               text-align: left;
-              /* Text style for "H, atha is" */
+
               font-style: normal;
               letter-spacing: 1.88px;
+              margin-bottom: 35px;
+
               line-height: normal;
             `}
           >
@@ -87,16 +92,14 @@ export default function group3() {
           </p>
           <div
             className={css`
-              /* Style for "Line" */
               width: 531px;
               height: 2px;
               border: 1px solid #745a82;
+              margin-bottom: 44px;
             `}
           ></div>
           <p
             className={css`
-              /* Style for "10 modules" */
-
               color: #745a82;
               font-family: 'Open Sans';
               font-size: 25px;
@@ -105,35 +108,55 @@ export default function group3() {
               letter-spacing: normal;
               line-height: 41.67px;
               text-align: left;
-              /* Text style for "10 modules" */
+
               font-style: normal;
               letter-spacing: 1.88px;
               line-height: normal;
+              margin-bottom: 58px;
             `}
           >
             10 modules <br /> divided into 7 weekends
           </p>
-
-          <p>Start April 15 20.00 hs</p>
-          <p>Price $900</p>
-        </div>
-        <div className='relative'>
-          <img
+          <div
             className={
-              'absolute ' +
+              'flex ' +
               css`
-                /* top: 0;
-                
-                left: 0; */
-                z-index: -1;
-                border-radius: 50%;
+                color: #745a82;
+                font-family: 'Open Sans';
+                font-size: 25px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 33.33px;
+                text-align: left;
+
+                font-family: 'Open Sans - Bold';
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: 1.88px;
+                line-height: normal;
+
+                font-family: 'Open Sans';
+                font-weight: undefined;
+                font-style: normal;
+                letter-spacing: 1.88px;
+                line-height: normal;
+                p {
+                  margin-right: 86px;
+                }
               `
             }
-            src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-3.png'
-            alt=''
-          />
-          <img className={'z-10 ' + css``} src='img/3-layers.png' alt='' />
-          asdfgfh
+          >
+            <p>
+              Start <br /> April 15 <br /> 20.00 hs
+            </p>
+            <p>
+              Price <br /> $900
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src='img/5-layers-4 (1).png' alt='' />
         </div>
       </div>
     </div>

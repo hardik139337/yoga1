@@ -6,15 +6,12 @@ export default function Yoga() {
       className={css`
         img {
           width: 100%;
-
           height: 100%;
         }
         min-height: 1000px;
-
         display: grid;
         place-items: center;
         position: relative;
-
         * {
           position: relative;
         }
@@ -33,6 +30,7 @@ export default function Yoga() {
           display: grid;
           place-items: center;
           height: 702px;
+          width: 702px;
         `}
       >
         <img
@@ -42,28 +40,31 @@ export default function Yoga() {
           src='img/Design.png'
           alt=''
         />
-        <div>
+        <div
+          className={css`
+            width: 347px;
+            height: 244px;
+          `}
+        >
+          <h1
+            className={css`
+              margin-bottom: 30px;
+              color: #745a82;
+              font-family: 'Open Sans - Light';
+              font-size: 42px;
+              font-weight: 150;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 50px;
+              text-align: center;
+            `}
+          >
+            Healthy & Fresh
+          </h1>
           <h1
             className={css`
               color: #745a82;
-              font-family: 'Open Sans';
-              font-size: 42px;
-              font-weight: 300;
-              font-style: normal;
-              letter-spacing: normal;
-              line-height: 102.98px;
               text-align: center;
-              font-family: 'Open Sans - Light';
-              font-weight: 300;
-              font-style: normal;
-              letter-spacing: normal;
-              line-height: normal;
-              font-family: 'Open Sans - Light';
-              font-size: 25px;
-              font-weight: 300;
-              font-style: normal;
-              letter-spacing: normal;
-              line-height: normal;
               font-family: 'Open Sans - Bold';
               font-size: 58px;
               font-weight: 700;
@@ -71,9 +72,11 @@ export default function Yoga() {
               letter-spacing: 1.52px;
               line-height: normal;
               text-transform: uppercase;
+              margin-bottom: 15px;
             `}
           >
-            Healthy Fresh <br /> Yoga
+            {' '}
+            Yoga
           </h1>
           <p
             className={css`

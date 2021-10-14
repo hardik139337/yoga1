@@ -5,28 +5,33 @@ export default function group5() {
   return (
     <div>
       <div className='grid grid-cols-2'>
-        <div></div>
         <div>
+          <img src='img/5-layers-2.png' alt='' />
+        </div>
+        <div
+          className={css`
+            padding-top: 168px;
+            padding-left: 85px;
+          `}
+        >
           <h1
             className={css`
-              /* Style for "Positions" */
-
               color: #745a82;
               font-family: 'Open Sans';
-              font-size: 12px;
+              font-size: 12px !important;
               font-weight: 700;
               font-style: normal;
               letter-spacing: normal;
               line-height: 58.33px;
               text-align: left;
               text-transform: uppercase;
-              /* Text style for "Positions" */
+              margin-bottom: 98px;
               font-family: 'Open Sans - Bold';
               font-weight: 700;
               font-style: normal;
               letter-spacing: 0.9px;
               line-height: normal;
-              /* Text style for "dynamics" */
+
               font-family: 'Open Sans - Light';
               font-weight: 300;
               font-style: normal;
@@ -34,15 +39,15 @@ export default function group5() {
               line-height: normal;
             `}
           >
-            Positions dynamics
+            Positions <br />
+            dynamics
           </h1>
 
           <h2
             className={css`
-              /* Style for "2. Kundali" */
-
               color: #745a82;
               font-family: 'Open Sans';
+              margin-bottom: 43px;
               font-size: 33px;
               font-weight: 400;
               font-style: normal;
@@ -50,13 +55,13 @@ export default function group5() {
               line-height: 58.33px;
               text-align: left;
               text-transform: uppercase;
-              /* Text style for "2, . ,  YO" */
+
               font-family: 'Open Sans';
               font-weight: undefined;
               font-style: normal;
               letter-spacing: 2.5px;
               line-height: normal;
-              /* Text style for "Kundalini" */
+
               font-family: 'Open Sans - Bold';
               font-weight: 700;
               font-style: normal;
@@ -68,17 +73,16 @@ export default function group5() {
           </h2>
           <p
             className={css`
-              /* Style for "Kundalini" */
-
               color: #745a82;
               font-family: 'Open Sans';
               font-size: 25px;
+              margin-bottom: 35px;
               font-weight: 400;
               font-style: normal;
               letter-spacing: normal;
               line-height: 45.83px;
               text-align: left;
-              /* Text style for "K, undalin" */
+              max-width: 498px;
               font-style: normal;
               letter-spacing: 1.88px;
               line-height: normal;
@@ -90,17 +94,15 @@ export default function group5() {
           </p>
           <div
             className={css`
-              /* Style for "Line" */
               width: 531px;
               height: 2px;
               border: 1px solid #745a82;
+              margin-bottom: 44px;
             `}
           ></div>
 
           <h3
             className={css`
-              /* Style for "17 modules" */
-
               color: #745a82;
               font-family: 'Open Sans';
               font-size: 25px;
@@ -109,19 +111,17 @@ export default function group5() {
               letter-spacing: normal;
               line-height: 41.67px;
               text-align: left;
-              /* Text style for "17 modules" */
+              margin-bottom: 58px;
               font-style: normal;
               letter-spacing: 1.88px;
               line-height: normal;
             `}
           >
-            17 modules divided into 5 weekends
+            17 modules <br /> divided into 5 weekends
           </h3>
 
           <h4
             className={css`
-              /* Style for "Start Apri" */
-
               color: #745a82;
               font-family: 'Open Sans';
               font-size: 25px;
@@ -130,13 +130,13 @@ export default function group5() {
               letter-spacing: normal;
               line-height: 33.33px;
               text-align: left;
-              /* Text style for "S, tart" */
+
               font-family: 'Open Sans - Bold';
               font-weight: 700;
               font-style: normal;
               letter-spacing: 1.88px;
               line-height: normal;
-              /* Text style for "April 15 ," */
+              margin-bottom: 77px;
               font-family: 'Open Sans';
               font-weight: undefined;
               font-style: normal;

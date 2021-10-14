@@ -1,4 +1,3 @@
-import React from 'react';
 import H from './com/h';
 import Yoga from './com/Yoga';
 import Group from './com/group1';
@@ -8,6 +7,7 @@ import Group5 from './com/group5';
 import Group6 from './com/group6';
 import Group7 from './com/group7';
 import Group8 from './com/group8';
+import Footer from './com/footer';
 
 export default function App() {
   return (
@@ -21,6 +21,8 @@ export default function App() {
       <Group6></Group6>
       <Group7></Group7>
       <Group8></Group8>
+      {/* <div className='h-96 bg-black'></div> */}
+      <Footer></Footer>
     </div>
   );
 }

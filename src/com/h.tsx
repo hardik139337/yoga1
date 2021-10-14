@@ -35,7 +35,7 @@ export default function h() {
       <a href='/#'>Class</a>
       <a href='/#'>Promo</a>
       <a href='/#'>Online Class</a>
-      <a href='/#'>Contac</a>
+      <a href='/#'>Contact</a>
     </div>
   );
 }
