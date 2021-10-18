@@ -58,7 +58,7 @@ export default function group() {
             yoga classes{' '}
           </span>
         </h1>
-        <div className='grid grid-cols-3 gap-11 relative'>
+        <div className='grid grid-cols-3 gap-11 md:gap-5 md:w-11/12 mx-auto relative'>
           <div>
             <img
               className={
@@ -74,7 +74,104 @@ export default function group() {
               className={
                 'rounded-full ' +
                 css`
-                  /* Style for "Place Your" */
+                  /* width: 339px; */
+                  /* height: 297px; */
+                  margin-bottom: 50px;
+                `
+              }
+              src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-2.png'
+              alt=''
+            />
+            <h1
+              className={css`
+                color: #745a82;
+                font-family: 'Open Sans';
+                font-size: 33px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                margin-bottom: 26px;
+              `}
+            >
+              Hatha
+            </h1>
+            <p
+              className={css`
+                color: #745a82;
+                font-family: 'Open Sans';
+                font-size: 25px;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                margin-bottom: 24px;
+              `}
+            >
+              Lorem ipsum sit amet, consectetur adipisicing...
+            </p>
+            <div
+              className={css`
+                border: 1px solid #745a82;
+                margin-bottom: 20px;
+              `}
+            />
+            <h2
+              className={css`
+                color: #745a82;
+                font-family: 'Open Sans';
+                font-size: 28px;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 65.89px;
+                text-align: left;
+
+                font-family: 'Open Sans - Bold';
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: 1.05px;
+                line-height: normal;
+              `}
+            >
+              Monday{' '}
+              <span
+                className={css`
+                  font-family: 'Open Sans - Light';
+                  font-weight: 300;
+                  font-style: normal;
+                  letter-spacing: 1.05px;
+                  line-height: normal;
+                `}
+              >
+                {' '}
+                20:00 hs.
+              </span>
+            </h2>
+          </div>
+          <div>
+            <img
+              className={
+                'absolute ' +
+                css`
+                  top: 50%;
+                `
+              }
+              src='img/Shape.png'
+              alt=''
+            />
+            <img
+              className={
+                'rounded-full ' +
+                css`
                   width: 339px;
                   height: 297px;
                   margin-bottom: 50px;
@@ -173,106 +270,6 @@ export default function group() {
               className={
                 'rounded-full ' +
                 css`
-                  /* Style for "Place Your" */
-                  width: 339px;
-                  height: 297px;
-                  margin-bottom: 50px;
-                `
-              }
-              src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-2.png'
-              alt=''
-            />
-            <h1
-              className={css`
-                color: #745a82;
-                font-family: 'Open Sans';
-                font-size: 33px;
-                font-weight: 700;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
-                text-align: left;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
-                margin-bottom: 26px;
-              `}
-            >
-              Hatha
-            </h1>
-            <p
-              className={css`
-                color: #745a82;
-                font-family: 'Open Sans';
-                font-size: 25px;
-                font-weight: 300;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
-                text-align: left;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
-                margin-bottom: 24px;
-              `}
-            >
-              Lorem ipsum sit amet, consectetur adipisicing...
-            </p>
-            <div
-              className={css`
-                border: 1px solid #745a82;
-                margin-bottom: 20px;
-              `}
-            />
-            <h2
-              className={css`
-                color: #745a82;
-                font-family: 'Open Sans';
-                font-size: 28px;
-                font-weight: 300;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: 65.89px;
-                text-align: left;
-
-                font-family: 'Open Sans - Bold';
-                font-weight: 700;
-                font-style: normal;
-                letter-spacing: 1.05px;
-                line-height: normal;
-              `}
-            >
-              Monday{' '}
-              <span
-                className={css`
-                  font-family: 'Open Sans - Light';
-                  font-weight: 300;
-                  font-style: normal;
-                  letter-spacing: 1.05px;
-                  line-height: normal;
-                `}
-              >
-                {' '}
-                20:00 hs.
-              </span>
-            </h2>
-          </div>
-          <div>
-            <img
-              className={
-                'absolute ' +
-                css`
-                  top: 50%;
-                `
-              }
-              src='img/Shape.png'
-              alt=''
-            />
-            <img
-              className={
-                'rounded-full ' +
-                css`
-                  /* Style for "Place Your" */
                   width: 339px;
                   height: 297px;
                   margin-bottom: 50px;
@@ -360,9 +357,6 @@ export default function group() {
       </div>
       <button
         className={css`
-          /* Style for "Show More" */
-
-          /* Style for "Shape" */
           margin: auto;
           display: block;
           width: 334px;
@@ -380,7 +374,7 @@ export default function group() {
           line-height: 21.01px;
 
           text-transform: uppercase;
-          /* Text style for "S, h, o, w" */
+
           font-style: normal;
           letter-spacing: 11.58px;
           line-height: normal;

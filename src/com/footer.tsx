@@ -18,6 +18,8 @@ export default function footer() {
             z-index: -1;
             margin-top: 100px;
             transform: scale(1.5);
+            height: 100%;
+            width: 100%;
           `
         }
         src='img/4-layers.png'
@@ -67,7 +69,6 @@ export default function footer() {
       >
         “
       </div>
-      {/* secound div */}
 
       <div
         className={

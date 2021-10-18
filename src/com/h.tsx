@@ -13,7 +13,7 @@ export default function h() {
           'flex items-center mx-auto py-7	w-11/12  ' +
           css`
             max-width: 1446px;
-            /* box-shadow: 0 -5px 43px rgba(2, 4, 0, 0.2); */
+
             background-color: #ffffff;
 
             a {

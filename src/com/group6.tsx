@@ -1,5 +1,4 @@
 import { css } from '@emotion/css';
-import React from 'react';
 
 export default function group6() {
   return (
@@ -13,8 +12,6 @@ export default function group6() {
         <div className='flex'>
           <div
             className={css`
-              /* Style for "Background" */
-              /* Style for "Line" */
               width: 40%;
               margin: 0 auto;
               margin-top: 17px;
@@ -25,7 +22,7 @@ export default function group6() {
           <h1
             className={css`
               width: max-content;
-              /* margin: 0 auto; */
+
               color: #745a82;
               font-family: 'Open Sans - Semibold';
               font-size: 33px;

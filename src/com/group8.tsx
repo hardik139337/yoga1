@@ -29,8 +29,6 @@ export default function group8() {
               writing-mode: vertical-rl;
               text-orientation: upright;
 
-              /* Style for "i n i t i" */
-
               color: #70577d;
               font-family: 'Open Sans';
               font-size: 14px;
@@ -40,7 +38,7 @@ export default function group8() {
               line-height: 33.33px;
               text-align: center;
               text-transform: uppercase;
-              /* Text style for "i , n , i" */
+
               font-style: normal;
               letter-spacing: 1.05px;
               line-height: normal;
@@ -125,7 +123,7 @@ export default function group8() {
               position: absolute;
               transform: translateY(50%);
               top: -50px;
-              /* right: -88px; */
+
               right: -50px;
               z-index: 10;
               writing-mode: vertical-rl;
