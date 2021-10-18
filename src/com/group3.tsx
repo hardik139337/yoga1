@@ -21,10 +21,13 @@ export default function group3() {
         }
       >
         <div
-          className={css`
-            padding-top: 167px;
-            padding-left: 149px;
-          `}
+          className={
+            'sm:p-3 ' +
+            css`
+              padding-top: 167px;
+              padding-left: 149px;
+            `
+          }
         >
           <h1
             className={css`
@@ -179,28 +182,31 @@ export default function group3() {
         <div className='relative'>
           <img src='img/5-layers-4 (1).png' alt='' />
           <p
-            className={css`
-              position: absolute;
-              bottom: 102px;
-              right: 69px;
-              z-index: 10;
-              writing-mode: vertical-rl;
-              text-orientation: upright;
+            className={
+              'sm:hidden ' +
+              css`
+                position: absolute;
+                bottom: 102px;
+                right: 69px;
+                z-index: 10;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
 
-              color: #745a82;
-              font-family: 'Open Sans';
+                color: #745a82;
+                font-family: 'Open Sans';
 
-              font-weight: 400;
-              font-style: normal;
-              letter-spacing: normal;
-              line-height: 41.67px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 41.67px;
 
-              text-transform: uppercase;
+                text-transform: uppercase;
 
-              font-style: normal;
-              letter-spacing: 1.88px;
-              line-height: normal;
-            `}
+                font-style: normal;
+                letter-spacing: 1.88px;
+                line-height: normal;
+              `
+            }
           >
             h a t h a
           </p>

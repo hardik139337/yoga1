@@ -21,33 +21,39 @@ export default function group5() {
         <div className='relative'>
           <img src='img/5-layers-2.png' alt='' />
           <p
-            className={css`
-              position: absolute;
-              bottom: 102px;
-              left: 69px;
-              z-index: 10;
-              writing-mode: vertical-rl;
-              text-orientation: upright;
-              color: #745a82;
-              font-family: 'Open Sans';
-              font-weight: 400;
-              font-style: normal;
-              letter-spacing: normal;
-              line-height: 41.67px;
-              text-transform: uppercase;
-              font-style: normal;
-              letter-spacing: 1.88px;
-              line-height: normal;
-            `}
+            className={
+              'sm:hidden ' +
+              css`
+                position: absolute;
+                bottom: 102px;
+                left: 69px;
+                z-index: 10;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                color: #745a82;
+                font-family: 'Open Sans';
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 41.67px;
+                text-transform: uppercase;
+                font-style: normal;
+                letter-spacing: 1.88px;
+                line-height: normal;
+              `
+            }
           >
             h a t h a
           </p>
         </div>
         <div
-          className={css`
-            padding-top: 168px;
-            padding-left: 85px;
-          `}
+          className={
+            'sm:p-3 ' +
+            css`
+              padding-top: 168px;
+              padding-left: 85px;
+            `
+          }
         >
           <h1
             className={css`

@@ -13,7 +13,7 @@ export default function group8() {
       >
         <div
           className={
-            'relative ' +
+            'relative sm:m-3 ' +
             css`
               margin-left: 100px;
               margin-top: 40px;
@@ -21,28 +21,31 @@ export default function group8() {
           }
         >
           <p
-            className={css`
-              position: absolute;
-              top: 0;
-              left: -88px;
-              z-index: 10;
-              writing-mode: vertical-rl;
-              text-orientation: upright;
+            className={
+              'sm:hidden ' +
+              css`
+                position: absolute;
+                top: 0;
+                left: -88px;
+                z-index: 10;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
 
-              color: #70577d;
-              font-family: 'Open Sans';
-              font-size: 14px;
-              font-weight: 700;
-              font-style: normal;
-              letter-spacing: normal;
-              line-height: 33.33px;
-              text-align: center;
-              text-transform: uppercase;
+                color: #70577d;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 33.33px;
+                text-align: center;
+                text-transform: uppercase;
 
-              font-style: normal;
-              letter-spacing: 1.05px;
-              line-height: normal;
-            `}
+                font-style: normal;
+                letter-spacing: 1.05px;
+                line-height: normal;
+              `
+            }
           >
             i n i t i a t i o n
           </p>
@@ -119,8 +122,8 @@ export default function group8() {
             22.12.2020 <br /> 24.03. 2021
           </p>
         </div>
-        <div className='relative'>
-          <img src='img/2-layers.png' alt='' />
+        <div className='relative sm:mb-10'>
+          <img  src='img/2-layers.png' alt='' />
           <p
             className={
               'lg:hidden    ' +

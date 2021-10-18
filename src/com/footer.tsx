@@ -13,7 +13,7 @@ export default function footer() {
     >
       <img
         className={
-          'absolute ' +
+          'absolute sm:hidden ' +
           css`
             z-index: -1;
             margin-top: 100px;
@@ -81,22 +81,25 @@ export default function footer() {
       >
         <div>
           <h1
-            className={css`
-              color: #70577d;
-              font-family: 'Open Sans';
-              font-size: 25px;
-              font-weight: 700;
-              font-style: normal;
-              letter-spacing: normal;
-              line-height: 33.33px;
-              text-align: left;
-              text-transform: uppercase;
+            className={
+              'sm:text-center ' +
+              css`
+                color: #70577d;
+                font-family: 'Open Sans';
+                font-size: 25px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 33.33px;
+                text-align: left;
+                text-transform: uppercase;
 
-              font-style: normal;
-              letter-spacing: normal;
-              line-height: normal;
-              margin-bottom: 25px;
-            `}
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                margin-bottom: 25px;
+              `
+            }
           >
             about
           </h1>
@@ -121,16 +124,19 @@ export default function footer() {
             eiusmod tempor incididunt ultimam quantum
           </p>
           <img
-            className={css`
-              margin-bottom: 48px;
-            `}
+            className={
+              'mx-auto ' +
+              css`
+                margin-bottom: 48px;
+              `
+            }
             src='img/Place_Your_Logo_Here_(Double_Click_to_Edit).png'
             alt=''
           />
         </div>
         <div
           className={
-            'grid grid-cols-4 ' +
+            'grid grid-cols-4 sm:p-1 sm:grid-cols-1 sm:gap-y-10 sm:text-center ' +
             css`
               padding-top: 61px;
               div {
@@ -174,8 +180,8 @@ export default function footer() {
         >
           <div></div>
           <div>
-            <h1>about</h1>
-            <ul>
+            <h1 className='sm:text-center'>about</h1>
+            <ul className='sm:text-center'>
               <li>Team</li>
               <li>Join us</li>
 
@@ -184,8 +190,8 @@ export default function footer() {
             </ul>
           </div>
           <div>
-            <h1>about</h1>
-            <ul>
+            <h1 className='sm:text-center'>about</h1>
+            <ul className='sm:text-center'>
               <li>Team</li>
               <li>Join us</li>
 
@@ -194,8 +200,8 @@ export default function footer() {
             </ul>
           </div>
           <div>
-            <h1>about</h1>
-            <ul>
+            <h1 className='sm:text-center'>about</h1>
+            <ul className='sm:text-center'>
               <li>Team</li>
               <li>Join us</li>
 
