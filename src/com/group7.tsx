@@ -1,5 +1,4 @@
 import { css } from '@emotion/css';
-import React from 'react';
 
 export default function group7() {
   return (
@@ -23,19 +22,19 @@ export default function group7() {
             line-height: normal;
             text-align: center;
             text-transform: uppercase;
-            /* Text style for "l, ook at" */
+
             font-family: 'Open Sans - Light';
             font-weight: 300;
             font-style: normal;
             letter-spacing: 5.36px;
             line-height: normal;
-            /* Text style for "Summer cla" */
+
             font-family: 'Open Sans - Bold';
             font-weight: 700;
             font-style: normal;
             letter-spacing: 5.36px;
             line-height: normal;
-            /* Text style for "" */
+
             font-family: Nunito;
             font-weight: 300;
             font-style: normal;
@@ -101,7 +100,7 @@ export default function group7() {
                   font-style: normal;
                   letter-spacing: 1.05px;
                   line-height: normal;
-                  /* Text style for "20:00 hs." */
+
                   font-family: 'Open Sans - Light';
                   font-weight: 300;
                   font-style: normal;
@@ -112,7 +111,8 @@ export default function group7() {
             `
           }
         >
-          <div>
+          <div className='relative'>
+            <img className='absolute top-1/2' src='img/Shape.png' alt='' />
             <img
               className='rounded-full mb-12'
               src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-5.png'
@@ -125,7 +125,9 @@ export default function group7() {
             <div className='mb-5'></div>
             <h2>Friday 20:00 hs.</h2>
           </div>
-          <div>
+          <div className='relative'>
+            <img className='absolute top-1/2' src='img/Shape.png' alt='' />
+
             <img
               className='rounded-full mb-12'
               src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-5.png'
@@ -138,7 +140,9 @@ export default function group7() {
             <div className='mb-5'></div>
             <h2>Friday 20:00 hs.</h2>
           </div>
-          <div>
+          <div className='relative'>
+            <img className='absolute top-1/2' src='img/Shape.png' alt='' />
+
             <img
               className='rounded-full mb-12'
               src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-5.png'
@@ -155,8 +159,6 @@ export default function group7() {
 
         <button
           className={css`
-            /* Style for "Show More" */
-            /* Style for "Shape" */
             width: 334px;
             height: 75px;
             display: block;
@@ -173,7 +175,7 @@ export default function group7() {
             line-height: 21.01px;
             margin-bottom: 63px;
             text-transform: uppercase;
-            /* Text style for "S, h, o, w" */
+
             font-style: normal;
             letter-spacing: 11.58px;
             line-height: normal;

@@ -1,12 +1,48 @@
 import { css } from '@emotion/css';
-import React from 'react';
 
 export default function group5() {
   return (
-    <div>
-      <div className='grid grid-cols-2'>
-        <div>
+    <div
+      className={css`
+        background-image: url('img/Shape-3 (2).png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: right top;
+      `}
+    >
+      <div
+        className={
+          'grid grid-cols-2 mx-auto ' +
+          
+          css`
+            max-width: 1240px;
+          `
+        }
+      >
+        <div className='relative'>
           <img src='img/5-layers-2.png' alt='' />
+          <p
+            className={css`
+              position: absolute;
+              bottom: 102px;
+              left: 69px;
+              z-index: 10;
+              writing-mode: vertical-rl;
+              text-orientation: upright;
+              color: #745a82;
+              font-family: 'Open Sans';
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 41.67px;
+              text-transform: uppercase;
+              font-style: normal;
+              letter-spacing: 1.88px;
+              line-height: normal;
+            `}
+          >
+            h a t h a
+          </p>
         </div>
         <div
           className={css`
@@ -16,22 +52,21 @@ export default function group5() {
         >
           <h1
             className={css`
+              margin-bottom: 98px;
+              font-size: 40px;
               color: #745a82;
               font-family: 'Open Sans';
-              font-size: 12px !important;
               font-weight: 700;
               font-style: normal;
               letter-spacing: normal;
               line-height: 58.33px;
               text-align: left;
               text-transform: uppercase;
-              margin-bottom: 98px;
               font-family: 'Open Sans - Bold';
               font-weight: 700;
               font-style: normal;
               letter-spacing: 0.9px;
               line-height: normal;
-
               font-family: 'Open Sans - Light';
               font-weight: 300;
               font-style: normal;
@@ -55,13 +90,11 @@ export default function group5() {
               line-height: 58.33px;
               text-align: left;
               text-transform: uppercase;
-
               font-family: 'Open Sans';
               font-weight: undefined;
               font-style: normal;
               letter-spacing: 2.5px;
               line-height: normal;
-
               font-family: 'Open Sans - Bold';
               font-weight: 700;
               font-style: normal;
@@ -120,8 +153,9 @@ export default function group5() {
             17 modules <br /> divided into 5 weekends
           </h3>
 
-          <h4
+          <div
             className={css`
+              display: flex;
               color: #745a82;
               font-family: 'Open Sans';
               font-size: 25px;
@@ -130,7 +164,6 @@ export default function group5() {
               letter-spacing: normal;
               line-height: 33.33px;
               text-align: left;
-
               font-family: 'Open Sans - Bold';
               font-weight: 700;
               font-style: normal;
@@ -142,10 +175,18 @@ export default function group5() {
               font-style: normal;
               letter-spacing: 1.88px;
               line-height: normal;
+              gap: 86px;
             `}
           >
-            Start April 15 20.00 hs Price $900
-          </h4>
+            <p>
+              {' '}
+              Start <br /> April 15 <br /> 20.00
+            </p>{' '}
+            <p>
+              {' '}
+              hs Price <br /> $900
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -1,16 +1,53 @@
 import { css } from '@emotion/css';
-import React from 'react';
 
 export default function group8() {
   return (
     <div>
-      <div className='c grid grid-cols-2'>
+      <div
+        className={
+          'grid grid-cols-2 mx-auto ' +
+          css`
+            max-width: 1092px;
+          `
+        }
+      >
         <div
-          className={css`
-            margin-left: 100px;
-            margin-top: 40px;
-          `}
+          className={
+            'relative ' +
+            css`
+              margin-left: 100px;
+              margin-top: 40px;
+            `
+          }
         >
+          <p
+            className={css`
+              position: absolute;
+              top: 0;
+              left: -88px;
+              z-index: 10;
+              writing-mode: vertical-rl;
+              text-orientation: upright;
+
+              /* Style for "i n i t i" */
+
+              color: #70577d;
+              font-family: 'Open Sans';
+              font-size: 14px;
+              font-weight: 700;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 33.33px;
+              text-align: center;
+              text-transform: uppercase;
+              /* Text style for "i , n , i" */
+              font-style: normal;
+              letter-spacing: 1.05px;
+              line-height: normal;
+            `}
+          >
+            i n i t i a t i o n
+          </p>
           <h1
             className={css`
               color: #70577d;
@@ -81,8 +118,36 @@ export default function group8() {
             22.12.2020 <br /> 24.03. 2021
           </p>
         </div>
-        <div>
+        <div className='relative'>
           <img src='img/2-layers.png' alt='' />
+          <p
+            className={css`
+              position: absolute;
+              transform: translateY(50%);
+              top: -50px;
+              /* right: -88px; */
+              right: -50px;
+              z-index: 10;
+              writing-mode: vertical-rl;
+              text-orientation: upright;
+
+              color: #70577d;
+              font-family: 'Open Sans';
+              font-size: 22px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 45.83px;
+              text-align: center;
+              text-transform: uppercase;
+
+              font-style: normal;
+              letter-spacing: 1.88px;
+              line-height: normal;
+            `}
+          >
+            W o r k s h o p
+          </p>
         </div>
       </div>
     </div>

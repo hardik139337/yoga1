@@ -10,32 +10,58 @@ export default function group6() {
           margin: 0 auto;
         `}
       >
-        <h1
-          className={css`
-            color: #745a82;
-            font-family: 'Open Sans - Semibold';
-            font-size: 33px;
-            font-weight: 400;
-            font-style: normal;
-            letter-spacing: normal;
-            line-height: 45.83px;
-            text-align: center;
-            text-transform: uppercase;
-            font-family: 'Open Sans - Semibold';
-            font-weight: 600;
-            font-style: normal;
-            letter-spacing: normal;
-            line-height: normal;
-            font-family: 'Open Sans';
-            font-weight: 300;
-            font-style: normal;
-            letter-spacing: normal;
-            line-height: normal;
-            margin-bottom: 115px;
-          `}
-        >
-          HEALTHY <br /> LIFE
-        </h1>
+        <div className='flex'>
+          <div
+            className={css`
+              /* Style for "Background" */
+              /* Style for "Line" */
+              width: 40%;
+              margin: 0 auto;
+              margin-top: 17px;
+              height: 2px;
+              border: 1px solid #745a82;
+            `}
+          ></div>
+          <h1
+            className={css`
+              width: max-content;
+              /* margin: 0 auto; */
+              color: #745a82;
+              font-family: 'Open Sans - Semibold';
+              font-size: 33px;
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 45.83px;
+              text-align: center;
+              text-transform: uppercase;
+              font-family: 'Open Sans - Semibold';
+              font-weight: 600;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: normal;
+              font-family: 'Open Sans';
+              font-weight: 300;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: normal;
+              margin-bottom: 115px;
+            `}
+          >
+            HEALTHY <br /> LIFE
+          </h1>
+          <div
+            className={css`
+              /* Style for "Background" */
+              /* Style for "Line" */
+              width: 40%;
+              margin: 0 auto;
+              margin-top: 17px;
+              height: 2px;
+              border: 1px solid #745a82;
+            `}
+          ></div>
+        </div>
 
         <div className='grid grid-cols-3 gap-20'>
           <div>
@@ -46,6 +72,7 @@ export default function group6() {
                   width: 137px;
                   display: block;
                   margin: 0 auto;
+
                   height: 137px;
                   margin-bottom: 45px;
                 `

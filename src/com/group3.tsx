@@ -2,8 +2,24 @@ import { css } from '@emotion/css';
 
 export default function group3() {
   return (
-    <div>
-      <div className='grid grid-cols-2'>
+    <div
+      className={
+        'relative ' +
+        css`
+          background-image: url('img/Shape-2.png');
+          background-repeat: no-repeat;
+          background-size: 50%;
+        `
+      }
+    >
+      <div
+        className={
+          'grid grid-cols-2 mx-auto ' +
+          css`
+            max-width: 1253px;
+          `
+        }
+      >
         <div
           className={css`
             padding-top: 167px;
@@ -14,7 +30,7 @@ export default function group3() {
             className={css`
               color: #745a82;
               font-family: 'Open Sans';
-              font-size: 12px;
+              font-size: 40px;
               font-weight: 700;
               font-style: normal;
               letter-spacing: normal;
@@ -22,21 +38,26 @@ export default function group3() {
               text-align: left;
               text-transform: uppercase;
               margin-bottom: 98px;
-              font-family: 'Open Sans - Bold';
-              font-weight: 700;
-              font-style: normal;
-              letter-spacing: 0.9px;
-              line-height: normal;
 
-              font-family: 'Open Sans - Light';
-              font-weight: 300;
+              font-weight: 700;
               font-style: normal;
               letter-spacing: 0.9px;
               line-height: normal;
             `}
           >
             practice
-            <br /> dynamics
+            <br />{' '}
+            <span
+              className={css`
+                font-family: 'Open Sans - Light';
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: 0.9px;
+                line-height: normal;
+              `}
+            >
+              dynamics
+            </span>
           </h1>
 
           <h2
@@ -155,8 +176,34 @@ export default function group3() {
             </p>
           </div>
         </div>
-        <div>
+        <div className='relative'>
           <img src='img/5-layers-4 (1).png' alt='' />
+          <p
+            className={css`
+              position: absolute;
+              bottom: 102px;
+              right: 69px;
+              z-index: 10;
+              writing-mode: vertical-rl;
+              text-orientation: upright;
+
+              color: #745a82;
+              font-family: 'Open Sans';
+
+              font-weight: 400;
+              font-style: normal;
+              letter-spacing: normal;
+              line-height: 41.67px;
+
+              text-transform: uppercase;
+
+              font-style: normal;
+              letter-spacing: 1.88px;
+              line-height: normal;
+            `}
+          >
+            h a t h a
+          </p>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { css } from '@emotion/css';
 
 export default function group() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <div
         className={
           'mx-auto ' +
@@ -14,10 +14,9 @@ export default function group() {
       >
         <h1
           className={css`
+            position: relative;
             width: max-content;
             margin: 0 auto;
-            /* Style for "Meet our" */
-
             color: #745a82;
             font-family: 'Open Sans';
             font-size: 42px;
@@ -27,31 +26,50 @@ export default function group() {
             line-height: normal;
             text-align: center;
             text-transform: uppercase;
-            /* Text style for "M, eet our" */
-            font-family: 'Open Sans - Light';
-            font-weight: 300;
-            font-style: normal;
-            letter-spacing: 5.36px;
-            line-height: normal;
-            /* Text style for "yoga class" */
-            font-family: 'Open Sans - Bold';
-            font-weight: 700;
-            font-style: normal;
-            letter-spacing: 5.36px;
-            line-height: normal;
-            /* Text style for "" */
-            font-family: Nunito;
-            font-weight: 300;
-            font-style: normal;
-            letter-spacing: 5.36px;
-            line-height: normal;
             margin-bottom: 85px;
+            padding-bottom: 50px;
           `}
         >
-          Meet our <br /> yoga classes{' '}
+          <div
+            className={css`
+              position: absolute;
+              border-radius: 25546846px;
+              bottom: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              z-index: -12;
+              width: 1802px;
+              height: 1802px;
+              box-shadow: 0 -5px 16px rgba(2, 4, 0, 0.13);
+              background-color: #ebf2f2;
+            `}
+          ></div>
+          Meet our <br />{' '}
+          <span
+            className={css`
+              font-family: 'Open Sans - Bold';
+              font-weight: 700;
+              font-style: normal;
+              letter-spacing: 5.36px;
+              line-height: normal;
+            `}
+          >
+            {' '}
+            yoga classes{' '}
+          </span>
         </h1>
-        <div className='grid grid-cols-3 gap-11'>
+        <div className='grid grid-cols-3 gap-11 relative'>
           <div>
+            <img
+              className={
+                'absolute ' +
+                css`
+                  top: 50%;
+                `
+              }
+              src='img/Shape.png'
+              alt=''
+            />
             <img
               className={
                 'rounded-full ' +
@@ -123,101 +141,34 @@ export default function group() {
                 font-style: normal;
                 letter-spacing: 1.05px;
                 line-height: normal;
-
-                font-family: 'Open Sans - Light';
-                font-weight: 300;
-                font-style: normal;
-                letter-spacing: 1.05px;
-                line-height: normal;
               `}
             >
-              Monday 20:00 hs.
+              Monday{' '}
+              <span
+                className={css`
+                  font-family: 'Open Sans - Light';
+                  font-weight: 300;
+                  font-style: normal;
+                  letter-spacing: 1.05px;
+                  line-height: normal;
+                `}
+              >
+                {' '}
+                20:00 hs.
+              </span>
             </h2>
           </div>
           <div>
             <img
               className={
-                'rounded-full ' +
+                'absolute ' +
                 css`
-                  /* Style for "Place Your" */
-                  width: 339px;
-                  height: 297px;
-                  margin-bottom: 50px;
+                  top: 50%;
                 `
               }
-              src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-2.png'
+              src='img/Shape.png'
               alt=''
             />
-            <h1
-              className={css`
-                color: #745a82;
-                font-family: 'Open Sans';
-                font-size: 33px;
-                font-weight: 700;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
-                text-align: left;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
-                margin-bottom: 26px;
-              `}
-            >
-              Hatha
-            </h1>
-            <p
-              className={css`
-                color: #745a82;
-                font-family: 'Open Sans';
-                font-size: 25px;
-                font-weight: 300;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
-                text-align: left;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
-                margin-bottom: 24px;
-              `}
-            >
-              Lorem ipsum sit amet, consectetur adipisicing...
-            </p>
-            <div
-              className={css`
-                border: 1px solid #745a82;
-                margin-bottom: 20px;
-              `}
-            />
-            <h2
-              className={css`
-                color: #745a82;
-                font-family: 'Open Sans';
-                font-size: 28px;
-                font-weight: 300;
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: 65.89px;
-                text-align: left;
-
-                font-family: 'Open Sans - Bold';
-                font-weight: 700;
-                font-style: normal;
-                letter-spacing: 1.05px;
-                line-height: normal;
-
-                font-family: 'Open Sans - Light';
-                font-weight: 300;
-                font-style: normal;
-                letter-spacing: 1.05px;
-                line-height: normal;
-              `}
-            >
-              Monday 20:00 hs.
-            </h2>
-          </div>
-          <div>
             <img
               className={
                 'rounded-full ' +
@@ -289,15 +240,120 @@ export default function group() {
                 font-style: normal;
                 letter-spacing: 1.05px;
                 line-height: normal;
-
-                font-family: 'Open Sans - Light';
+              `}
+            >
+              Monday{' '}
+              <span
+                className={css`
+                  font-family: 'Open Sans - Light';
+                  font-weight: 300;
+                  font-style: normal;
+                  letter-spacing: 1.05px;
+                  line-height: normal;
+                `}
+              >
+                {' '}
+                20:00 hs.
+              </span>
+            </h2>
+          </div>
+          <div>
+            <img
+              className={
+                'absolute ' +
+                css`
+                  top: 50%;
+                `
+              }
+              src='img/Shape.png'
+              alt=''
+            />
+            <img
+              className={
+                'rounded-full ' +
+                css`
+                  /* Style for "Place Your" */
+                  width: 339px;
+                  height: 297px;
+                  margin-bottom: 50px;
+                `
+              }
+              src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-2.png'
+              alt=''
+            />
+            <h1
+              className={css`
+                color: #745a82;
+                font-family: 'Open Sans';
+                font-size: 33px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                margin-bottom: 26px;
+              `}
+            >
+              Hatha
+            </h1>
+            <p
+              className={css`
+                color: #745a82;
+                font-family: 'Open Sans';
+                font-size: 25px;
                 font-weight: 300;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                margin-bottom: 24px;
+              `}
+            >
+              Lorem ipsum sit amet, consectetur adipisicing...
+            </p>
+            <div
+              className={css`
+                border: 1px solid #745a82;
+                margin-bottom: 20px;
+              `}
+            />
+            <h2
+              className={css`
+                color: #745a82;
+                font-family: 'Open Sans';
+                font-size: 28px;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 65.89px;
+                text-align: left;
+
+                font-family: 'Open Sans - Bold';
+                font-weight: 700;
                 font-style: normal;
                 letter-spacing: 1.05px;
                 line-height: normal;
               `}
             >
-              Monday 20:00 hs.
+              Monday{' '}
+              <span
+                className={css`
+                  font-family: 'Open Sans - Light';
+                  font-weight: 300;
+                  font-style: normal;
+                  letter-spacing: 1.05px;
+                  line-height: normal;
+                `}
+              >
+                {' '}
+                20:00 hs.
+              </span>
             </h2>
           </div>
         </div>
