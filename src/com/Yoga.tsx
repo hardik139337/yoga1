@@ -29,8 +29,8 @@ export default function Yoga() {
         className={css`
           display: grid;
           place-items: center;
-          height: 702px;
-          width: 702px;
+          min-height: 702px;
+          max-width: 702px;
         `}
       >
         <img
@@ -42,8 +42,8 @@ export default function Yoga() {
         />
         <div
           className={css`
-            width: 347px;
-            height: 244px;
+            max-width: 347px;
+            min-height: 244px;
           `}
         >
           <h1

@@ -10,7 +10,7 @@ export default function h() {
     >
       <div
         className={
-          'flex items-center mx-auto py-7	w-11/12  ' +
+          'flex flex-wrap items-center mx-auto py-7	w-11/12  ' +
           css`
             max-width: 1446px;
 

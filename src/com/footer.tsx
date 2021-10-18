@@ -72,7 +72,7 @@ export default function footer() {
 
       <div
         className={
-          'grid grid-cols-2 ' +
+          'grid grid-cols-2 sm:grid-cols-1 w-11/12 mx-auto ' +
           css`
             max-width: 1136px;
             margin: 0 auto;

@@ -60,7 +60,7 @@ export default function group6() {
           ></div>
         </div>
 
-        <div className='grid grid-cols-3 gap-20'>
+        <div className='grid grid-cols-3 sm:grid-cols-1 w-11/12 mx-auto gap-20'>
           <div>
             <img
               className={

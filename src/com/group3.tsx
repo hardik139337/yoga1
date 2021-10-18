@@ -14,7 +14,7 @@ export default function group3() {
     >
       <div
         className={
-          'grid grid-cols-2 mx-auto ' +
+          'grid grid-cols-2 sm:grid-cols-1 mx-auto ' +
           css`
             max-width: 1253px;
           `
@@ -113,7 +113,7 @@ export default function group3() {
           </p>
           <div
             className={css`
-              width: 531px;
+              max-width: 531px;
               height: 2px;
               border: 1px solid #745a82;
               margin-bottom: 44px;

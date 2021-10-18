@@ -46,7 +46,7 @@ export default function group7() {
         </h1>
         <div
           className={
-            'grid grid-cols-3 ' +
+            'grid grid-cols-3 sm:grid-cols-1 w-11/12 gap-3 mx-auto ' +
             css`
               margin-bottom: 86px;
               div {
@@ -80,7 +80,7 @@ export default function group7() {
                   line-height: normal;
                 }
                 div {
-                  width: 290px;
+                  width: 100%;
                   height: 2px;
                   border: 1px solid #745a82;
                 }
@@ -112,7 +112,11 @@ export default function group7() {
           }
         >
           <div className='relative'>
-            <img className='absolute top-1/2' src='img/Shape.png' alt='' />
+            <img
+              className='absolute md:hidden top-1/2'
+              src='img/Shape.png'
+              alt=''
+            />
             <img
               className='rounded-full mb-12'
               src='img/Place_Your_Image_Here_(Double_Click_to_Edit)-5.png'
@@ -126,7 +130,11 @@ export default function group7() {
             <h2>Friday 20:00 hs.</h2>
           </div>
           <div className='relative'>
-            <img className='absolute top-1/2' src='img/Shape.png' alt='' />
+            <img
+              className='absolute md:hidden top-1/2'
+              src='img/Shape.png'
+              alt=''
+            />
 
             <img
               className='rounded-full mb-12'
@@ -141,7 +149,11 @@ export default function group7() {
             <h2>Friday 20:00 hs.</h2>
           </div>
           <div className='relative'>
-            <img className='absolute top-1/2' src='img/Shape.png' alt='' />
+            <img
+              className='absolute md:hidden top-1/2'
+              src='img/Shape.png'
+              alt=''
+            />
 
             <img
               className='rounded-full mb-12'

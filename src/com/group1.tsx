@@ -58,7 +58,7 @@ export default function group() {
             yoga classes{' '}
           </span>
         </h1>
-        <div className='grid grid-cols-3 gap-11 md:gap-5 md:w-11/12 mx-auto relative'>
+        <div className='grid grid-cols-3 sm:grid-cols-1 gap-11 md:gap-5  w-11/12 mx-auto relative'>
           <div>
             <img
               className={
@@ -172,8 +172,8 @@ export default function group() {
               className={
                 'rounded-full ' +
                 css`
-                  width: 339px;
-                  height: 297px;
+                  /* width: 339px;
+                  height: 297px; */
                   margin-bottom: 50px;
                 `
               }
@@ -270,8 +270,8 @@ export default function group() {
               className={
                 'rounded-full ' +
                 css`
-                  width: 339px;
-                  height: 297px;
+                  /* width: 339px;
+                  height: 297px; */
                   margin-bottom: 50px;
                 `
               }

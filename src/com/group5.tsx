@@ -12,8 +12,7 @@ export default function group5() {
     >
       <div
         className={
-          'grid grid-cols-2 mx-auto ' +
-          
+          'grid grid-cols-2 sm:grid-cols-1 w-11/12 mx-auto ' +
           css`
             max-width: 1240px;
           `
@@ -127,7 +126,7 @@ export default function group5() {
           </p>
           <div
             className={css`
-              width: 531px;
+              width: 100%;
               height: 2px;
               border: 1px solid #745a82;
               margin-bottom: 44px;
