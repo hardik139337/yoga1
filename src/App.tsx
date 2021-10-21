@@ -1,5 +1,5 @@
 import H from './com/h';
-
+import Yoga from './com/Yoga';
 import Group from './com/group1';
 import Group2 from './com/group2';
 import Group3 from './com/group3';
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div>
       <H></H>
-      {/* <Yoga></Yoga> */}
+      <Yoga></Yoga>
       <Group></Group>
       <Group2></Group2>
       <Group3></Group3>
