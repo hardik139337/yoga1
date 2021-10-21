@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div>
       <H></H>
-      <Yoga></Yoga>
+      {/* <Yoga></Yoga> */}
       <Group></Group>
       <Group2></Group2>
       <Group3></Group3>
