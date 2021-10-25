@@ -49,8 +49,6 @@ export default function group6() {
           </h1>
           <div
             className={css`
-              /* Style for "Background" */
-              /* Style for "Line" */
               width: 40%;
               margin: 0 auto;
               margin-top: 17px;
